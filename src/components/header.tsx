@@ -1,18 +1,15 @@
-import { header } from '../portofolio';
-import Navbar from './navbar';
-import "../styles/header.css"
+import { header } from "../portofolio";
+import Navbar from "./navbar";
 
 const Header: React.FC = () => {
-  const { homepage, title } = header;
+  const { homepage } = header;
 
   return (
     <header className="header center">
       <h3>
-        {homepage ? <a href={homepage} className="link">{title}</a> : title}
+        {homepage && <a href={homepage} className="link">Home</a>}
       </h3>
       <Navbar />
     </header>
   );
 };
-
-export default Header;
