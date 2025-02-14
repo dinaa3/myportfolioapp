@@ -7,7 +7,7 @@ const header = {
   const about = {
     // all the properties are optional - can be left empty or deleted
     name: 'Dina Adel',
-    role: 'Software Engineer and DevOps Engineer',
+    role: 'Software Engineer',
     description:
     'Software Engineering student at the German International University with hands-on experience in full-stack development and cloud computing. I am passionate about creating scalable, high-performance applications and continuously learning cutting-edge technologies.',
     social: {
@@ -22,7 +22,7 @@ const header = {
     {
       name: 'Help Desk Full-Stack Website',
       description:
-        'Participated in the devlopment of backend and frontend APIs for staff help desk website',
+        'Participated in the devlopment of backend and frontend website for a staff help desk website',
       stack: ['MongoDB', 'Express.js', 'React', 'Node,js'],
       sourceCode: 'https://github.com/dinaa3/ECS_helpDesk1',
       livePreview: 'https://ecs-help-desk-one.vercel.app/',
@@ -30,7 +30,7 @@ const header = {
     {
       name: 'Full-Stack E-commerce Website',
       description:
-        'Developed a microservice-based (backend and frontend) e-commerce website',
+        'Developed a microservice-based (backend and frontend) e-commerce website for selling plastic palletes',
       stack: ['NestJS', 'Next.jst', 'Kafka', 'MongoDB'],
       sourceCode: 'https://github.com/dinaa3/Eco-Pallets-project',
       livePreview: 'https://eco-pallets.vercel.app/',
@@ -38,8 +38,8 @@ const header = {
     {
       name: 'Event-Driven Orchestration System (Bachelor Project)',
       description:
-        'Developed an event orchestration system using DistilBERT model and AWS Cloud services',
-      stack: ['DynamoDB', 'S3', 'Step Function', 'SageMaker', 'EventBridge', 'SQS', 'lAMBDA'],
+        'Developed an event orchestration system using machine learning and cloud computing (DistilBERT model and AWS Cloud services)',
+      stack: ['DynamoDB', 'S3', 'Step Function', 'SageMaker', 'EventBridge', 'SQS', 'Lambda'],
       sourceCode: 'https://github.com/dinaa3/event_orchestration_system-Bachelor-Thesis-Project-',
     },
   ]
